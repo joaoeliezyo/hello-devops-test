@@ -18,3 +18,8 @@ def enesimo_primo(n):
             contador += 1
             
     return numero_atual
+
+
+n = int(input("Digite o valor de n: "))
+resultado = enesimo_primo(n)
+print(f"O {n}º número primo é: {resultado}")
